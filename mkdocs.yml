@@ -1,0 +1,99 @@
+site_name: Rikaitan
+site_url: https://rikaitan.github.io/
+site_description: Japanese pop-up dictionary browser extension
+site_author: Ajatt-Tools and contributors
+repo_url: https://github.com/Ajatt-Tools/rikaitan
+repo_name: Rikaitan
+nav:
+  - Home: 'index.md'
+  - Getting started: 'getting-started/index.md'
+  - Dictionaries: 'dictionaries/index.md'
+  - Anki: 'anki/index.md'
+  - Advanced Features: 'advanced/index.md'
+  - Other:
+    - FAQ: 'other/faq.md'
+    - Browser permissions: 'other/permissions.md'
+    - Supported languages: 'other/supported-languages.md'
+    - Migrating from Yomichan (legacy): 'other/yomichan-migration.md'
+theme:
+  name: material
+  favicon: assets/icon/rikaitan-icon64.png
+  logo: assets/icon/rikaitan-icon128.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: black
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+      primary: black
+      accent: indigo
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Ajatt-Tools/rikaitan
+    - icon: fontawesome/brands/telegram
+      link: https://tatsumoto.neocities.org/blog/join-our-community
+  homepage: https://rikaitan.github.io/
+  generator: false
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - git-revision-date-localized
+  - social
+  - search:
+      lang:
+        - en
+        - ja
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2024 Ajatt-Tools and contributors
