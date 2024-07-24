@@ -21,18 +21,14 @@ We recommend **[LibreWolf](https://librewolf.net/)**
 or [ungoogled-chromium](https://aur.archlinux.org/packages/ungoogled-chromium)
 as your everyday web browser.
 
-=== "Firefox-based"
-    === "Stable"
-        [:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox/Stable</small>](https://addons.mozilla.org/en-US/firefox/addon/rikaitan/){ .md-button .md-button--primary }
-    === "Beta"
-        [:fontawesome-brands-firefox-browser: Go To Github Releases](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary }
-=== "Chromium-based"
-    === "Stable"
-        [:fontawesome-brands-chrome: Get Rikaitan <small>Chrome/Stable</small>](https://chrome.google.com/webstore/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk){ .md-button .md-button--primary }
-    === "Beta"
-        [:fontawesome-brands-chrome: Go To Github Releases](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary }
+[:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox/Stable</small>](https://addons.mozilla.org/en-US/firefox/addon/rikaitan/){ .md-button .md-button--primary }
+[:fontawesome-brands-firefox-browser: Go To Github Releases](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary }
 
-        <small>※ Firefox does not allow extensions meant for testing to be hosted in the marketplace. You will to download the desired version and side-load it yourself. You only need to do this once, and you will get updates automatically.</small>
+[:fontawesome-brands-chrome: Get Rikaitan <small>Chrome/Stable</small>](https://chrome.google.com/webstore/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk){ .md-button .md-button--primary }
+[:fontawesome-brands-chrome: Go To Github Releases](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary }
+
+
+<small>※ Firefox does not allow extensions meant for testing to be hosted in the marketplace. You will to download the desired version and side-load it yourself. You only need to do this once, and you will get updates automatically.</small>
 
 ---
 

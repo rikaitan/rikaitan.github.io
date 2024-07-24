@@ -14,9 +14,9 @@ hide:
 
 [Get started](getting-started/index.md){ .md-button .md-button--stretch }
 
-[:fontawesome-brands-chrome: Get Rikaitan <small>Chrome/Stable</small>](https://chrome.google.com/webstore/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk){ .md-button .md-button--primary .md-button--stretch }
+[:fontawesome-brands-chrome: Get Rikaitan <small>Chrome</small>](https://chrome.google.com/webstore/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk){ .md-button .md-button--primary .md-button--stretch }
 
-[:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox/Stable</small>](https://addons.mozilla.org/en-US/firefox/addon/rikaitan/){ .md-button .md-button--primary .md-button--stretch }
+[:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox</small>](https://addons.mozilla.org/en-US/firefox/addon/rikaitan/){ .md-button .md-button--primary .md-button--stretch }
 
 </div>
 ---
