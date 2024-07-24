@@ -19,7 +19,6 @@ hide:
 [:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox/Stable</small>](https://addons.mozilla.org/en-US/firefox/addon/rikaitan/){ .md-button .md-button--primary .md-button--stretch }
 
 </div>
-
 ---
 
 ## What is Rikaitan?
@@ -36,6 +35,7 @@ Rikaitan turns your web browser into a tool for building language literacy by he
     ---
 
     Interactive popup definition window for displaying search results.
+    ![Term definitions](assets/ss/terms.webp){ class=on-glb }
 
 
 -   :loud_sound:{ .lg .middle } &nbsp;
@@ -67,6 +67,8 @@ Rikaitan turns your web browser into a tool for building language literacy by he
 
     Automatic flashcard creation for the [Anki](https://apps.ankiweb.net/) flashcard program via the [AnkiConnect](https://ankiweb.net/shared/info/2055492159) plugin.
 
+    ![Anki](assets/ss/anki.webp){ class=on-glb }
+
     ---
 
     [:octicons-arrow-right-24: More information](./anki/index.md)
@@ -92,19 +94,4 @@ Rikaitan turns your web browser into a tool for building language literacy by he
 
 </div>
 
----
-
-### Rikaitan Demo
-
-=== "Rikaitan Popup"
-    === "Term"
-        ![Term definitions](assets/ss/terms.png)
-    === "Kanji"
-        ![Kanji information](assets/ss/kanji.png)
-=== "Rikaitan Settings"
-    === "Dictionary"
-        ![Dictionary options](assets/ss/dictionaries.png)
-    === "Anki"
-        ![Anki options](assets/ss/anki.png)
-
-[Get started](getting-started/index.md){ .md-button .md-button }
+[Get started](getting-started/index.md){ .md-button .md-button--stretch }
