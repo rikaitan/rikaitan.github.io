@@ -94,4 +94,4 @@ Rikaitan turns your web browser into a tool for building language literacy by he
 
 </div>
 
-[Get started](getting-started/index.md){ .md-button .md-button--stretch }
+[Get started](getting-started/index.md){ .md-button .md-button--stretch-max-sm }
