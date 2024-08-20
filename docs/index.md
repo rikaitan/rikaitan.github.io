@@ -12,13 +12,14 @@ hide:
 
 <div class="grid" markdown>
 
-[Get started](getting-started/index.md){ .md-button .md-button--stretch }
-
 [:fontawesome-brands-chrome: Get Rikaitan <small>Chrome</small>](https://chrome.google.com/webstore/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk){ .md-button .md-button--primary .md-button--stretch }
 
 [:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox</small>](https://addons.mozilla.org/en-US/firefox/addon/rikaitan/){ .md-button .md-button--primary .md-button--stretch }
 
 </div>
+
+[Get started](getting-started/index.md){ .md-button .md-button--stretch }
+
 ---
 
 ## What is Rikaitan?
