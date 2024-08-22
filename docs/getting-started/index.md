@@ -42,6 +42,13 @@ the marketplace. You will have to download the desired version and side-load it
 yourself. You only need to do this once, and you will get updates
 automatically.</small>
 
+### Mobile devices
+
+On [Android](https://tatsumoto.neocities.org/blog/our-immersion-learning-toolset#android) devices
+you can install
+[Fennec](https://f-droid.org/packages/org.mozilla.fennec_fdroid/)
+and then install Rikaitan from [Firefox add-ons](#firefox).
+
 ---
 
 ## Basic Usage
