@@ -23,6 +23,10 @@ Most Rikaitan dictionaries for Japanese are linked in
 Dictionaries for beginners can be found in the
 [JMdict-Rikaitan](https://github.com/Ajatt-Tools/jmdict-rikaitan) repository.
 
+#### Other Languages
+
+[Kaikki To Rikaitan](https://github.com/Ajatt-Tools/kaikki-to-rikaitan/blob/master/downloads.md) - Wiktionaries in various languages converted to Rikaitan format.
+
 #### EPWING Dictionaries
 
 Rikaitan supports dictionaries in the esoteric but popular [EPWING](https://ja.wikipedia.org/wiki/EPWING) format. They were often utilized in portable electronic dictionaries. These dictionaries are often sought after by language learners for their correctness and excellent coverage of the Japanese language.
