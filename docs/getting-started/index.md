@@ -4,7 +4,6 @@ hide:
   - footer
 ---
 
-
 This introduction will help you quickly familiarize yourself with the basics and set you up for a smooth language learning experience.
 
 Whether you're new to Rikaitan or just need a refresher, here you'll find all the essential information you need to begin your journey.
@@ -21,20 +20,24 @@ We recommend **[LibreWolf](https://librewolf.net/)**
 or [ungoogled-chromium](https://aur.archlinux.org/packages/ungoogled-chromium)
 as your everyday web browser.
 
-### Firefox
-<div class="grid" markdown>
-[:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox/Stable</small>](https://addons.mozilla.org/en-US/firefox/addon/rikaitan/){ .md-button .md-button--primary .md-button--stretch }
-
-[:fontawesome-brands-firefox-browser: Go To Github Releases](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary .md-button--stretch }
-
-</div>
-
 ### Chrome
+
 <div class="grid" markdown>
 
 [:fontawesome-brands-chrome: Get Rikaitan <small>Chrome/Stable</small>](https://chrome.google.com/webstore/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk){ .md-button .md-button--primary .md-button--stretch }
 
 [:fontawesome-brands-chrome: Go To Github Releases](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary .md-button--stretch }
+
+</div>
+
+### Firefox
+
+<div class="grid" markdown>
+
+[:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox/Stable</small>](https://addons.mozilla.org/en-US/firefox/addon/rikaitan/){ .md-button .md-button--primary .md-button--stretch }
+
+[:fontawesome-brands-firefox-browser: Go To Github Releases](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary .md-button--stretch }
+
 </div>
 
 <small>※ Firefox does not allow extensions meant for testing to be hosted in
@@ -59,7 +62,7 @@ Now that you have installed Rikaitan, let's explore how you can utilize her feat
 
 Click the <img src="../assets/icon/rikaitan-icon.svg" width="16" height="16" alt="rikaitan icon"> _Rikaitan_ button in the browser bar to open the quick-actions popup.
 
-<img src="../assets/resources/browser-action-popup1.webp" alt="rikaitan main popup">
+<img src="../assets/ss/browser-action-popup.webp" alt="rikaitan main popup">
 
 - The <img src="../assets/icon/cog.svg" width="16" height="16" alt="cog"> _cog_ button will open the Settings page.
 - The <img src="../assets/icon/magnifying-glass.svg" width="16" height="16" alt="magnifying glass"> _magnifying glass_ button willopen the Search page.
@@ -68,11 +71,11 @@ Click the <img src="../assets/icon/rikaitan-icon.svg" width="16" height="16" alt
 
 ### Installing Dictionaries
 
-To import the dictionaries you wish to use for term and kanji searches, head over to [Dictionary](../dictionaries/index.md) to get set up!
+To import the dictionaries you wish to use for term searches, head over to [Dictionary](../dictionaries/index.md) to get set up!
 
-If you do not have any dictionaries installed or enabled, Rikaitan will warn you that it is not ready for use by displaying an orange exclamation mark over its icon. This exclamation mark will disappear once you have installed and enabled at least one dictionary.
+If you do not have any dictionaries installed or enabled. Rikaitan will warn you that it is not ready for use by displaying an orange exclamation mark over its icon. This exclamation mark will disappear once you have installed and enabled at least one dictionary.
 
-<img src="../assets/resources/settings-dictionaries-popup.webp" width="300" alt="custom dictionaries list">
+<img src="../assets/ss/settings-dictionaries-popup-english.webp" width="300" alt="custom dictionaries list">
 
 ### Scanning Text
 
@@ -80,7 +83,7 @@ Webpage text can be scanned by moving the cursor while holding a modifier key, w
 
 If definitions are found for the text at the cursor position, a popup window containing term definitions will open. This window can be dismissed by clicking anywhere outside of it.
 
-<img src="../assets/resources/search-popup-terms.webp" width="300" alt="popup with search terms">
+<img src="../assets/ss/search-popup-terms-english.webp" width="300" alt="popup with search terms">
 
 ### Audio
 
@@ -88,10 +91,6 @@ Click on the <img src="../assets/icon/play-audio.svg" width="16" height="16" alt
 
 If an audio sample is not available, you will hear a short click instead. For more options, see [Audio Configuration](../advanced/index.md#audio).
 
-### Kanji
-
-Click on individual kanji in the term definition results to view additional information about those characters, including stroke order diagrams, readings, meanings, and other useful data.
-
-<img src="../assets/resources/search-popup-kanji.webp" width="300" alt="popup with kanji details">
+### Anki
 
 To further enhance your Rikaitan experience, it's worth [integrating with Anki](../anki/index.md), a spaced-repetition flashcard program to help solidify the words you encounter.
