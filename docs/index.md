@@ -1,6 +1,6 @@
 ---
 title: Welcome to Rikaitan
-description: Powerful and versatile pop-up dictionary for language learning used by 40,000+ language-learners.
+description: Powerful and versatile pop-up dictionary for language learning used by 50,000+ language learners.
 hide:
   - navigation
   - toc
@@ -8,7 +8,7 @@ hide:
 ---
 
 # <p style="text-align: center; margin-bottom: 10px; margin-top: 10px; font-size: 200%;">**Rikaitan**</p>
-## <p style="text-align: center">Powerful and versatile pop-up dictionary for <a href="https://tatsumoto.neocities.org/blog/whats-ajatt" target="_blank">AJATT</a> and language learning used by 40,000+ language-learners.</p>
+## <p style="text-align: center">Powerful and versatile pop-up dictionary for <a href="https://tatsumoto.neocities.org/blog/whats-ajatt" target="_blank">AJATT</a> and language learning used by 50,000+ language learners.</p>
 
 <div class="grid" markdown>
 
