@@ -7,7 +7,6 @@ hide:
 This introduction will help you quickly familiarize yourself with the basics and set you up for a smooth language learning experience.
 
 Whether you're new to Rikaitan or just need a refresher, here you'll find all the essential information you need to begin your journey.
-
 Let's dive in and get started!
 
 ---

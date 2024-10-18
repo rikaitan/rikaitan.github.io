@@ -25,7 +25,7 @@ hide:
 ## What is Rikaitan?
 
 Unlock the full potential of AJATT with Rikaitan!
-Rikaitan turns your web browser into a tool for building language literacy by helping you **read** texts that would otherwise be too difficult to tackle in [a variety of supported languages](./other/supported-languages.md).
+Rikaitan turns your web browser into a tool for building language literacy by helping you **read** texts that would otherwise be too difficult to tackle in [a variety of supported languages](./supported-languages.md).
 
 <div class="grid cards" markdown>
 
@@ -70,7 +70,7 @@ Rikaitan turns your web browser into a tool for building language literacy by he
 
     ---
 
-    [:octicons-arrow-right-24: Supported languages](./other/supported-languages.md)
+    [:octicons-arrow-right-24: Supported languages](./supported-languages.md)
 
 -   :pencil:{ .lg .middle } &nbsp;
     __Flashcards__

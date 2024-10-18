@@ -4,15 +4,15 @@ hide:
   - footer
 ---
 
-## Community
-
-This section will be a compiled list of software that works well with, or community tooling made for Rikaitan.
+A compiled list of software that improves your Rikaitan experience.
 
 ### Compatible Software
 
 #### [Anki](https://apps.ankiweb.net/)
 
 See the dedicated [Anki](../anki/index.md) section.
+
+### Media players
 
 #### [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
 
@@ -29,10 +29,16 @@ for details.
 
 A browser-based media player and Chrome extension that can add text-selectable and Rikaitan-scannable subtitles onto video sources (e.g. Netflix and Youtube).
 
+### Readers
+
 #### [Ttsu Reader](https://reader.ttsu.app/)
 
 An online e-book reader that works flawlessly with Rikaitan.
 **Warning**: it is bloatware made with JavaScript.
+
+#### [PDF Reader](rikaitan-pdf-viewer/index.html)
+
+Reading PDF's in your browser that is Rikaitan-scannable
 
 ### Community Tooling
 

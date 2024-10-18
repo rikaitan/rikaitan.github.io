@@ -1,8 +1,21 @@
 ---
 hide:
-  - toc
+  - navigation
   - footer
+  - toc
 ---
+
+Having trouble with Rikaitan? If you don't find your answers here, feel free to reach out to us in the following communities.
+
+## Rikaitan Matrix
+
+We have an active community of users and collaborators on our Matrix space.
+
+[![](https://img.shields.io/badge/chat-join-green?style=for-the-badge&logo=Element&logoColor=green)](https://tatsumoto.neocities.org/blog/join-our-community)
+
+## Github
+
+You can [file an issue in our github repository here](https://github.com/Ajatt-Tools/rikaitan/issues/new/choose) and provide any context that could help us help you resolve your issue.
 
 ## Frequently Asked Questions
 
