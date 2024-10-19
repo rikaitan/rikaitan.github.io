@@ -18,7 +18,7 @@ hide:
 
 </div>
 
-[Get started](getting-started/index.md){ .md-button .md-button--stretch }
+[Get started](getting-started){ .md-button .md-button--stretch }
 
 ---
 
@@ -59,7 +59,7 @@ Rikaitan turns your web browser into a tool for building language literacy by he
 
     ---
 
-    [:octicons-arrow-right-24: More information](./advanced/index.md#audio)
+    [:octicons-arrow-right-24: More information](./advanced#audio)
 
 -   :earth_asia:{ .lg .middle } &nbsp;
     __Multilanguage Support__
@@ -83,17 +83,17 @@ Rikaitan turns your web browser into a tool for building language literacy by he
 
     ---
 
-    [:octicons-arrow-right-24: More information](./anki/index.md)
+    [:octicons-arrow-right-24: More information](./anki)
 
 -   :heart:{ .lg .middle } &nbsp;
     __And Much More__
 
     ---
 
-    - :book: [Support for multiple dictionaries.](./dictionaries/index.md)
+    - :book: [Support for multiple dictionaries.](./dictionaries)
     - :material-cloud-off: Works fully offline. No internet connection needed.
-    - :material-wrench: [Extremely customizable. Hotkeys, custom audio, custom appearance.](advanced/index.md)
-    - :material-currency-usd-off: Completely free! We don't track your data and we're completely [open-sourced](https://github.com/Ajatt-Tools/rikaitan).
+    - :material-wrench: [Extremely customizable. Hotkeys, custom audio, custom appearance.](advanced)
+    - :material-currency-usd-off: Completely free! We don't track your data and we're completely [FLOSS](https://github.com/Ajatt-Tools/rikaitan).
 </div>
 
-[Get started](getting-started/index.md){ .md-button .md-button--stretch-max-sm }
+[Get started](getting-started){ .md-button .md-button--stretch-max-sm }

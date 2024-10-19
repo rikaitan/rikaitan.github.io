@@ -14,6 +14,8 @@ See the dedicated [Anki](/anki/) section.
 
 ### Media players
 
+Media players load and play media and enable Rikaitan lookups.
+
 #### [mpvacious](https://github.com/Ajatt-Tools/mpvacious)
 
 A user-script for MPV that adds keybindings to create Anki cards from movies and TV shows.
@@ -27,20 +29,27 @@ for details.
 
 #### [Asbplayer](https://github.com/killergerbah/asbplayer?tab=readme-ov-file#getting-started)
 
-A browser-based media player and Chrome extension that can add text-selectable and Rikaitan-scannable subtitles onto video sources (e.g. Netflix and Youtube).
+A browser-based media player and Chrome extension that can add text-selectable and Rikaitan-scannable subtitles onto video sources (e.g. Youtube and video files).
 
 ### Readers
 
+Readers allow reading books and text on your browser which makes the text you read Rikaitan-compatible.
+
 #### [Ttsu Reader](https://reader.ttsu.app/)
 
-An online e-book reader that works flawlessly with Rikaitan.
-**Warning**: it is bloatware made with JavaScript.
+An online e-book reader that loads HTMLZ, Plain Text and EPUB files.
+**Warning**: it is bloatware made with JavaScript. We recommend crqt-ng instead.
+
+### [Koodo Reader](https://web.koodoreader.com/)
+
+An ebook manager and reader with wider support of file formats. No support on mobile.
+**Warning**: it is bloatware made with JavaScript. We recommend crqt-ng instead.
 
 #### [PDF Reader](rikaitan-pdf-viewer/index.html)
 
 Reading PDF's in your browser that is Rikaitan-scannable
 
-### Community Tooling
+### Tooling
 
 !!! warning "These are not made nor maintained by Rikaitan developers, and it may break Rikaitan's functionalities."
 
