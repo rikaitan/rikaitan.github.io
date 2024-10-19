@@ -59,9 +59,9 @@ Now that you have installed Rikaitan, let's explore how you can utilize her feat
 
 ### Quick-actions
 
-Click the <img class="icon" src="../assets/icon/rikaitan-icon.svg" width="16" height="16" alt="rikaitan icon"> _Rikaitan_ button in the browser bar to open the quick-actions popup.
+Click the ![rikaitan icon](assets/icon/rikaitan-icon.svg){ width="16" } _Rikaitan_ button in the browser bar to open the quick-actions popup.
 
-![](../../assets/ss/browser-action-popup.webp){ width="120" }
+![](assets/ss/browser-action-popup.webp){ width="120" }
 
 - The <img class="icon" src="../assets/icon/profile.svg" width="16" height="16" alt="profile icon"> _profile_ button will appear when multipleprofiles exist, allowing the current profile to be quickly changed.
 - The <img class="icon" src="../assets/icon/cog.svg" width="16" height="16" alt="cog"> _cog_ button will open the Settings page.
