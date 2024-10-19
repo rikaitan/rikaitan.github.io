@@ -18,7 +18,7 @@ hide:
 
 </div>
 
-[Get started](getting-started){ .md-button .md-button--stretch }
+[Get started](getting-started.md){ .md-button .md-button--stretch }
 
 ---
 
@@ -83,7 +83,7 @@ Rikaitan turns your web browser into a tool for building language literacy by he
 
     ---
 
-    [:octicons-arrow-right-24: More information](./anki)
+    [:octicons-arrow-right-24: More information](./anki.md)
 
 -   :heart:{ .lg .middle } &nbsp;
     __And Much More__
