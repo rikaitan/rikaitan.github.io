@@ -40,7 +40,7 @@ Shortcuts are configurable in the "Shortcuts" section of the settings page.
 
 To enable Rikaitan scanning on local files, go to `Settings` > `Security` > `Configure Rikaitan Permissions`, and navigate to the `Allow access to file URLs` option. From there, follow the link to the browser's settings pages, and check `Allow access to file URLs` on Chrome/Edge, or `Access your data for all websites` for Firefox.
 
-Rikaitan may not work on PDF files. When that happens, drag and drop your PDF file into [our PDF Viewer](../rikaitan-pdf-viewer/index.html).
+Rikaitan may not work on PDF files. When that happens, drag and drop your PDF file into [our PDF Viewer](rikaitan-pdf-viewer/index.html).
 
 ### Scanning in private windows
 
