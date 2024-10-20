@@ -47,7 +47,7 @@ An ebook manager and reader with wider support of file formats. No support on mo
 
 #### [PDF Reader](rikaitan-pdf-viewer/index.html)
 
-Reading PDF's in your browser that is Rikaitan-scannable
+A tool to read and scan PDFs in your browser with Rikaitan.
 
 ### Tooling
 
