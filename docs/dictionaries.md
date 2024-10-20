@@ -5,8 +5,6 @@ hide:
 ---
 
 
-## Dictionaries
-
 You must download and import the dictionaries you wish to use in order to enable Rikaitan definition lookups.
 
 There are several free dictionaries available for Rikaitan, some of them with glossaries available in different languages.
