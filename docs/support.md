@@ -54,8 +54,7 @@ experience.
 **Is it possible to use Rikaitan with files saved locally on my computer with Chrome?**
 
 In order to use Rikaitan with local files in Chrome, you must first tick the _Allow access to file URLs_ checkbox
-for Rikaitan on the extensions page. Due to the restrictions placed on browser addons in the WebExtensions model, it
-will likely never be possible to use Rikaitan with PDF files.
+for Rikaitan on the extensions page. In addition, you may use the [Rikaitan PDF Viewer](https://rikaitan.github.io/rikaitan-pdf-viewer/web/) to view and scan PDF files that are on your local machine.
 
 **Is it possible to delete individual dictionaries without purging the database?**
 
