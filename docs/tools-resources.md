@@ -45,7 +45,7 @@ An online e-book reader that loads HTMLZ, Plain Text and EPUB files.
 An ebook manager and reader with wider support of file formats. No support on mobile.
 **Warning**: it is bloatware made with JavaScript. We recommend crqt-ng instead.
 
-#### [PDF Reader](rikaitan-pdf-viewer/index.html)
+#### [Rikaitan PDF Reader](rikaitan-pdf-viewer/index.html)
 
 A tool to read and scan PDFs in your browser with Rikaitan.
 
