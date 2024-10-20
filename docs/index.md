@@ -7,7 +7,7 @@ hide:
   - footer
 ---
 
-# <p id="homepage-title">**Rikaitan**</p>
+# <p id="homepage-title"><span id="homepage-title-wrapper">**Rikaitan**</span></p>
 ## <p style="text-align: center">Powerful and versatile pop-up dictionary for <a href="https://tatsumoto.neocities.org/blog/whats-ajatt" target="_blank">AJATT</a> and language learning used by 50,000+ language learners.</p>
 
 <div class="grid" markdown>
