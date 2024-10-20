@@ -15,6 +15,10 @@ Be aware that non-English dictionaries generally contain fewer entries than thei
 
 ### Recommended Dictionaries
 
+!!! note
+
+    If you can't find suitable Rikaitan dictionaries, feel free to Google for dictionaries in your specific language or ask your fellow community members
+
 #### Japanese
 
 Most Rikaitan dictionaries for Japanese are linked in
@@ -32,10 +36,6 @@ Dictionaries for beginners can be found in the
 #### Other Languages
 
 [Kaikki To Rikaitan](https://github.com/Ajatt-Tools/kaikki-to-rikaitan/blob/master/downloads.md) - Wiktionaries in various languages converted to Rikaitan format.
-
-!!! note
-
-    If you can't find suitable Rikaitan dictionaries, feel free to Google for dictionaries in your specific language or ask your fellow community members
 
 ### Bulk Importing Dictionaries
 
