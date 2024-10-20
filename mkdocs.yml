@@ -37,14 +37,14 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-      primary: black
+      primary: custom
       accent: indigo
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/white-balance-sunny
         name: Switch to light mode
-      primary: black
+      primary: custom
       accent: indigo
 
 extra:
@@ -98,6 +98,7 @@ plugins:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/homepage.css
 
 copyright: |
   Copyright &copy; 2024 Ajatt-Tools and contributors <br>
