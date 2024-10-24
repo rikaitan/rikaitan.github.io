@@ -10,7 +10,7 @@ A compiled list of software that improves your Rikaitan experience.
 
 #### [Anki](https://wiki.archlinux.org/title/Anki)
 
-See the dedicated [Anki](/anki/) section.
+See the dedicated [Anki](anki.md) section.
 
 ### Media players
 

@@ -96,4 +96,4 @@ Rikaitan turns your web browser into a tool for building language literacy by he
     - :material-currency-usd-off: Completely free! We don't track your data and we're completely [FLOSS](https://github.com/Ajatt-Tools/rikaitan).
 </div>
 
-[Get started](getting-started){ .md-button .md-button--stretch-max-sm }
+[Get started](getting-started.md){ .md-button .md-button--stretch-max-sm }
