@@ -2,42 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://rikaitan.github.io/</loc>
-         <lastmod>2024-10-13</lastmod>
+         <lastmod>2024-10-25</lastmod>
     </url>
     <url>
          <loc>https://rikaitan.github.io/advanced/</loc>
-         <lastmod>2024-10-13</lastmod>
+         <lastmod>2024-10-25</lastmod>
     </url>
     <url>
-         <loc>https://rikaitan.github.io/anki/</loc>
-         <lastmod>2024-10-13</lastmod>
-    </url>
-    <url>
-         <loc>https://rikaitan.github.io/community/</loc>
-         <lastmod>2024-10-13</lastmod>
+         <loc>https://rikaitan.github.io/contributing/</loc>
+         <lastmod>2024-10-25</lastmod>
     </url>
     <url>
          <loc>https://rikaitan.github.io/dictionaries/</loc>
-         <lastmod>2024-10-13</lastmod>
+         <lastmod>2024-10-25</lastmod>
     </url>
     <url>
          <loc>https://rikaitan.github.io/getting-started/</loc>
-         <lastmod>2024-10-13</lastmod>
+         <lastmod>2024-10-25</lastmod>
     </url>
     <url>
-         <loc>https://rikaitan.github.io/other/faq/</loc>
-         <lastmod>2024-10-13</lastmod>
+         <loc>https://rikaitan.github.io/privacy/</loc>
+         <lastmod>2024-10-25</lastmod>
     </url>
     <url>
-         <loc>https://rikaitan.github.io/other/permissions/</loc>
-         <lastmod>2024-10-13</lastmod>
+         <loc>https://rikaitan.github.io/support/</loc>
+         <lastmod>2024-10-25</lastmod>
     </url>
     <url>
-         <loc>https://rikaitan.github.io/other/supported-languages/</loc>
-         <lastmod>2024-10-13</lastmod>
+         <loc>https://rikaitan.github.io/supported-languages/</loc>
+         <lastmod>2024-10-25</lastmod>
     </url>
     <url>
-         <loc>https://rikaitan.github.io/other/yomichan-migration/</loc>
-         <lastmod>2024-10-13</lastmod>
+         <loc>https://rikaitan.github.io/supporting-tools/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://rikaitan.github.io/yomichan-migration/</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://rikaitan.github.io/anki/</loc>
+         <lastmod>2024-10-25</lastmod>
     </url>
 </urlset>
