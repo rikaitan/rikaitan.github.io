@@ -7,7 +7,7 @@ hide:
 
 ## Anki Integration
 
-Rikaitan features automatic flashcard creation for [Anki](https://apps.ankiweb.net/), a free application designed to help you
+Rikaitan features automatic flashcard creation for [Anki](https://wiki.archlinux.org/title/Anki), a free application designed to help you
 retain knowledge. This feature requires the prior installation of an Anki plugin called [AnkiConnect](https://ankiweb.net/shared/info/2055492159).
 Check the respective project page for more information about how to set up this software.
 

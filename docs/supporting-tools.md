@@ -8,7 +8,7 @@ A compiled list of software that improves your Rikaitan experience.
 
 ### Compatible Software
 
-#### [Anki](https://apps.ankiweb.net/)
+#### [Anki](https://wiki.archlinux.org/title/Anki)
 
 See the dedicated [Anki](/anki/) section.
 

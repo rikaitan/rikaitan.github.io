@@ -77,7 +77,7 @@ Rikaitan turns your web browser into a tool for building language literacy by he
 
     ---
 
-    Automatic flashcard creation for the [Anki](https://apps.ankiweb.net/) flashcard program via the [AnkiConnect](https://ankiweb.net/shared/info/2055492159) plugin.
+    Automatic flashcard creation for the [Anki](https://wiki.archlinux.org/title/Anki) flashcard program via the [AnkiConnect](https://ankiweb.net/shared/info/2055492159) plugin.
 
     ![Anki](assets/ss/anki.webp){ class=on-glb }
 
