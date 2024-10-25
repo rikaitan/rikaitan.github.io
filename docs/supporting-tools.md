@@ -10,7 +10,7 @@ A compiled list of software that improves your Rikaitan experience.
 
 #### [Anki](https://apps.ankiweb.net/)
 
-See the dedicated [Anki](../anki/index.md) section.
+See the dedicated [Anki](/anki/) section.
 
 ### Media players
 
