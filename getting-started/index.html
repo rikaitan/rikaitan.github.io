@@ -54,6 +54,8 @@
     
       <link rel="stylesheet" href="../stylesheets/extra.css">
     
+      <link rel="stylesheet" href="../stylesheets/homepage.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -106,7 +108,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -161,7 +163,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
@@ -171,7 +173,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m3.55 19.09 1.41 1.41 1.8-1.79-1.42-1.42M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.71 1.8 1.79 1.41-1.41-1.79-1.8M20.45 5l-1.41-1.4-1.8 1.79 1.42 1.42M13 1h-2v3h2M6.76 5.39 4.96 3.6 3.55 5l1.79 1.81zM1 13h3v-2H1m12 9h-2v3h2"/></svg>
@@ -344,12 +346,12 @@
   
   
     <li class="md-tabs__item">
-      <a href="../supporting-tools/" class="md-tabs__link">
+      <a href="../tools-resources/" class="md-tabs__link">
         
   
     
   
-  Supporting Tools
+  Tools & Resources
 
       </a>
     </li>
@@ -681,11 +683,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../supporting-tools/" class="md-nav__link">
+      <a href="../tools-resources/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Supporting Tools
+    Tools & Resources
   </span>
   
 
@@ -915,36 +917,34 @@ and then install Rikaitan from <a href="#firefox">Firefox add-ons</a>.</p>
 <h2 id="basic-usage">Basic Usage</h2>
 <p>Now that you have installed Rikaitan, let's explore how you can utilize her features in your language learning journey.</p>
 <h3 id="quick-actions">Quick-actions</h3>
-<p>Click the <img class="icon" src="../assets/icon/rikaitan-icon.svg" width="16" height="16" alt="rikaitan icon"> <em>Rikaitan</em> button in the browser bar to open the quick-actions popup.</p>
-<p><img class="ss" src="../assets/ss/browser-action-popup.webp" alt="rikaitan main popup"></p>
+<p>Click the <img alt="rikaitan icon" src="../assets/icon/rikaitan-icon.svg" width="16" /> <em>Rikaitan</em> button in the browser bar to open the quick-actions popup.</p>
+<p><img alt="" src="../assets/ss/browser-action-popup.webp" width="120" /></p>
 <ul>
-<li>The <img class="icon" src="../assets/icon/cog.svg" width="16" height="16" alt="cog"> <em>cog</em> button will open the Settings page.</li>
-<li>The <img class="icon" src="../assets/icon/magnifying-glass.svg" width="16" height="16" alt="magnifying glass"> <em>magnifying glass</em> button willopen the Search page.</li>
-<li>The <img class="icon" src="../assets/icon/question-mark-circle.svg" width="16" height="16" alt="question mark symbol"> <em>question mark</em> buttonwill open the Information page.</li>
-<li>The <img class="icon" src="../assets/icon/profile.svg" width="16" height="16" alt="profile icon"> <em>profile</em> button will appear when multipleprofiles exist, allowing the current profile to be quickly changed.</li>
+<li>The <img alt="profile icon" src="../assets/icon/profile.svg" width="16" /> <em>profile</em> button will appear when multipleprofiles exist, allowing the current profile to be quickly changed.</li>
+<li>The <img alt="cog" src="../assets/icon/cog.svg" width="16" /> <em>cog</em> button will open the Settings page.</li>
+<li>The <img alt="magnifying glass" src="../assets/icon/magnifying-glass.svg" width="16" /> <em>magnifying glass</em> button willopen the Search page.</li>
+<li>The <img alt="question mark symbol" src="../assets/icon/question-mark-circle.svg" width="16" /> <em>question mark</em> buttonwill open the Information page.</li>
 </ul>
 <h3 id="installing-dictionaries">Installing Dictionaries</h3>
-<p>To import the dictionaries you wish to use for term searches, head over to <a href="../dictionaries/index.md">Dictionary</a> to get set up!</p>
+<p>To import the dictionaries you wish to use for term searches, head over to <a href="../dictionaries/">Dictionaries</a> to get set up!</p>
 <p>If you do not have any dictionaries installed or enabled. Rikaitan will warn you that it is not ready for use by displaying an orange exclamation mark over its icon. This exclamation mark will disappear once you have installed and enabled at least one dictionary.</p>
 <figure>
-    <img class="ss" src="../assets/ss/settings-dictionaries-popup.webp" width="550" alt="custom dictionaries list">
+    <img alt="custom dictionaries list" src="../assets/ss/settings-dictionaries-popup.webp" width="550" />
 </figure>
-
 <h3 id="scanning-text">Scanning Text</h3>
 <p>Webpage text can be scanned by moving the cursor while holding a modifier key, which is <kbd>Shift</kbd> by default.</p>
 <p>If definitions are found for the text at the cursor position, a popup window containing term definitions will open. This window can be dismissed by clicking anywhere outside of it.</p>
 <figure>
-    <a href="https://www.wikiwand.com/en/articles/English_language#Classification">
-    <img class="ss" src="../assets/ss/search-popup-terms.webp" width="850" alt="popup with search terms">
+    <a href="https://en.wikipedia.org/wiki/English_language#Classification">
+    <img alt="popup with search terms" src="../assets/ss/search-popup-terms.webp" width="850" />
     </a>
     <figcaption><small>Try it yourself!</small></figcaption>
 </figure>
-
 <h3 id="audio">Audio</h3>
-<p>Click on the <img class="icon" src="../assets/icon/play-audio.svg" width="16" height="16" alt="loudspeaker icon"> <em>speaker</em> button to hear the term pronounced by a native speaker.</p>
-<p>If an audio sample is not available, you will hear a short click instead. For more options, see <a href="../advanced/index.md#audio">Audio Configuration</a>.</p>
+<p>Click on the <img alt="loudspeaker icon" src="../assets/icon/play-audio.svg" width="16" /> <em>speaker</em> button to hear the term pronounced by a native speaker.</p>
+<p>If an audio sample is not available, you will hear a short click instead. For more options, see <a href="../advanced/#audio">Audio Configuration</a>.</p>
 <h3 id="anki">Anki</h3>
-<p>To further enhance your Rikaitan experience, it's worth <a href="../anki/index.md">integrating with Anki</a>, a spaced-repetition flashcard program to help solidify the words you encounter.</p>
+<p>To further enhance your Rikaitan experience, it's worth <a href="../anki/">integrating with Anki</a>, a spaced-repetition flashcard program to help solidify the words you encounter.</p>
 
 
 
@@ -965,7 +965,7 @@ and then install Rikaitan from <a href="#firefox">Firefox add-ons</a>.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 18, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 19, 2024</span>
   </span>
 
     
