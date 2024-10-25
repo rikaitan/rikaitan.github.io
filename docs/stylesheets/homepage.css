@@ -7,7 +7,7 @@
 }
 
 #homepage-title {
-    background: linear-gradient(to right, #bc00ff, #00eeff);
+    background: linear-gradient(45deg, #ff0000, #000000);
     background-clip: text;
     width: fit-content;
     height: fit-content;
@@ -16,7 +16,7 @@
 
 [data-md-color-scheme="slate"] {
     #homepage-title {
-        background: linear-gradient(to right, #c013ff, #00eeff);
+        background: linear-gradient(45deg, #ffffff, #ff0000);
         background-clip: text;
         color: transparent;
     }
