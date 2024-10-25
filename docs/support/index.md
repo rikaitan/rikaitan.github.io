@@ -7,9 +7,9 @@ hide:
 
 Having trouble with Rikaitan? If you don't find your answers here, feel free to reach out to us in the following communities.
 
-## Rikaitan Matrix
+## Rikaitan Matrix or Telegram
 
-We have an active community of users and collaborators on our Matrix space.
+We have an active community of users and collaborators on our Matrix space and on Telegram.
 
 [![](https://img.shields.io/badge/chat-join-green?style=for-the-badge&logo=Element&logoColor=green)](https://tatsumoto.neocities.org/blog/join-our-community)
 
