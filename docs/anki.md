@@ -42,7 +42,7 @@ Flashcard fields can be configured with the following steps:
 6.  _(optional, advanced)_ Users can also configure the actual [Handlebars](https://handlebarsjs.com/) templates used to create
     the flashcard contents.
 
-    #### Markers for Term Cards
+??? note "Markers for Term Cards"
 
     | Marker                                      | Description                                                                                                                                                            |
     | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -90,7 +90,7 @@ Flashcard fields can be configured with the following steps:
     | `{tags}`                                    | Grammar and usage tags providing information about the term (unavailable in _grouped_ mode).                                                                           |
     | `{url}`                                     | Address of the web page in which the term appeared in.                                                                                                                 |
 
-    #### Markers for Kanji Cards
+??? note "Markers for Kanji Cards"
 
     | Marker                            | Description                                                                                                                                                              |
     | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
