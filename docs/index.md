@@ -1,6 +1,7 @@
 ---
 title: Welcome to Rikaitan
 description: Powerful and versatile pop-up dictionary for language learning used by 100,000+ language learners.
+
 hide:
   - navigation
   - toc
