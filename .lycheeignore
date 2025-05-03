@@ -1,2 +1,8 @@
 http://[a-z0-9]+\.onion/
 https://forvo\.com/
+^https://www.reddit.com/r/Ajatt-Tools/$
+^https://ankiweb.net/shared/info/2055492159$
+^file:///home/runner/work/rikaitan-wiki/rikaitan-wiki/overrides/anki$
+^file:///home/runner/work/rikaitan-wiki/rikaitan-wiki/overrides/advanced#audio$
+^file:///home/runner/work/rikaitan-wiki/rikaitan-wiki/overrides/tools-resources$
+^file:///home/runner/work/rikaitan-wiki/rikaitan-wiki/overrides/getting-started$
