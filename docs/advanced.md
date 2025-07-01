@@ -93,9 +93,6 @@ To enable this, just add a new playback source with the `Text-to-speech` type an
 
 You can add a custom URL from which audio will be fetched. One use case for this is getting audio from [Forvo](https://forvo.com/), currently the largest online pronunciation database.
 
-* **Yomichan Forvo Server**:
-  - Fetches from Forvo, at the cost of a slight delay. After installing it in Anki, add a `Custom URL (JSON)` audio source with the URL `http://localhost:8770?term={term}&reading={reading}&language=en` (replacing `en` with the desired language's ISO code).
-
 ---
 
 ## Advanced Options
