@@ -33,7 +33,7 @@ as your everyday web browser.
 
 <div class="grid" markdown>
 
-[:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox/Stable</small>](https://addons.mozilla.org/en-US/firefox/addon/rikaitan/){ .md-button .md-button--primary .md-button--stretch }
+[:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox/Stable</small>](https://github.com/Ajatt-Tools/rikaitan/releases/latest){ .md-button .md-button--primary .md-button--stretch }
 
 [:fontawesome-brands-firefox-browser: Go To Github Releases](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary .md-button--stretch }
 

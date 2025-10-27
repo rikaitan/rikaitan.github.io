@@ -20,7 +20,7 @@ Be aware that non-English dictionaries generally contain fewer entries than thei
 #### Japanese
 
 Most Rikaitan dictionaries for Japanese are linked in
-[Tatsumoto's guide to Japanese](https://tatsumoto.neocities.org/blog/yomichan-and-epwing-dictionaries#rikaitan).
+[Tatsumoto's guide to Japanese](https://tatsumoto.neocities.org/blog/rikaitan-dictionaries.html).
 
 Dictionaries for beginners can be found in the
 [JMdict-Rikaitan](https://github.com/Ajatt-Tools/jmdict-rikaitan) repository.
