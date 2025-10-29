@@ -25,7 +25,7 @@ as your everyday web browser.
 
 [:fontawesome-brands-chrome: Get Rikaitan <small>Chrome/Stable</small>](https://chrome.google.com/webstore/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk){ .md-button .md-button--primary .md-button--stretch }
 
-[:fontawesome-brands-chrome: Go To Github Releases](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary .md-button--stretch }
+[:fontawesome-brands-chrome: Go To Github Releases <small>All versions</small>](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary .md-button--stretch }
 
 </div>
 
@@ -35,7 +35,7 @@ as your everyday web browser.
 
 [:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox/Stable</small>](https://github.com/Ajatt-Tools/rikaitan/releases/latest){ .md-button .md-button--primary .md-button--stretch }
 
-[:fontawesome-brands-firefox-browser: Go To Github Releases](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary .md-button--stretch }
+[:fontawesome-brands-firefox-browser: Go To Github Releases <small>All versions</small>](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary .md-button--stretch }
 
 </div>
 
