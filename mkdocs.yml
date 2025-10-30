@@ -1,5 +1,5 @@
 site_name: Rikaitan
-site_url: https://rikaitan.github.io/
+site_url: https://rikaitan.ajatt.top/
 site_description: Powerful and versatile pop-up dictionary for language learning
 site_author: Ajatt-Tools and contributors
 repo_url: https://github.com/Ajatt-Tools/rikaitan
@@ -53,7 +53,7 @@ extra:
       link: https://github.com/Ajatt-Tools/rikaitan
     - icon: fontawesome/brands/telegram
       link: https://tatsumoto.neocities.org/blog/join-our-community
-  homepage: https://rikaitan.github.io/
+  homepage: https://rikaitan.ajatt.top/
   generator: false
 
 markdown_extensions:
