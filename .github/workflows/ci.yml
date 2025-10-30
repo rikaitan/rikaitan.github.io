@@ -59,3 +59,4 @@ jobs:
           rclone -v sync --fast-list --checksum
           "$PWD" "s3-connect:rikaitan.ajatt.top"
           --exclude ".git/"
+          --delete-excluded
