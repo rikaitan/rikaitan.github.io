@@ -9,7 +9,7 @@ on:
 permissions:
   contents: write
 jobs:
-  deploy:
+  deploy-gh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -34,3 +34,28 @@ jobs:
 
       - name: Deploy site to github pages
         run: mkdocs gh-deploy --force
+
+  deploy-s3:
+    needs: [deploy-gh]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          fetch-depth: 0
+
+      # https://github.com/AnimMouse/setup-rclone/tree/main?tab=readme-ov-file#usage
+      # Encode the rclone.conf file in Base64 using this command: `base64 -w 0 rclone.conf`
+      # and paste it to RCLONE_CONFIG secret.
+      - name: Setup Rclone
+        uses: AnimMouse/setup-rclone@ef6294e97b6f0cbeb6f1a682a15d35a91dd5d0ff
+        with:
+          rclone_config: ${{ secrets.RCLONE_CONFIG }}
+
+      - name: Rclone from pwd to remote
+        shell: bash
+        run: >-
+          rclone -v sync --fast-list --checksum
+          "$PWD" "s3-connect:rikaitan.ajatt.top"
+          --exclude ".git/"
