@@ -15,7 +15,7 @@ hide:
 
 [:fontawesome-brands-chrome: Get Rikaitan <small>Chrome</small>](https://chrome.google.com/webstore/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk){ .md-button .md-button--primary .md-button--stretch }
 
-[:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox</small>](https://github.com/Ajatt-Tools/rikaitan/releases/latest){ .md-button .md-button--primary .md-button--stretch }
+[:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox</small>](https://github.com/Ajatt-Tools/rikaitan/releases/latest/download/rikaitan-firefox-selfhosted.xpi){ .md-button .md-button--primary .md-button--stretch }
 
 </div>
 
