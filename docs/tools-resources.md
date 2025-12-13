@@ -64,3 +64,17 @@ Anki Addon which allows for additional custom audio sources from Forvo.
 #### [Generate Batch Audio](https://ankiweb.net/shared/info/1156270186)
 
 Anki Addon which allows for generating audio in bulk from a list of URLs.
+
+### Themes
+
+To use these themes, follow the steps below:
+
+1. Navigate to `Settings`.
+2. Enable `Advanced` on the left toolbar.
+3. Go to `Appearance` → `Configure Custom CSS...` and paste the contents into the `Popup CSS` field.
+
+!!! warning "In some cases the CSS might contain proprietary fonts or dictionary names. In that case, please obtain them through legal means, or simply change them to the ones you have."
+
+#### [Bint's Rikaitan CSS](/assets/themes/bint-css.css)
+
+Beautiful custom CSS for Japanese kindly shared by Bint.

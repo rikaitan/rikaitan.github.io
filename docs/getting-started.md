@@ -4,14 +4,41 @@ hide:
   - footer
 ---
 
+# Getting Started with Rikaitan
+
 This introduction will help you quickly familiarize yourself with the basics and set you up for a smooth language learning experience.
 
-Whether you're new to Rikaitan or just need a refresher, here you'll find all the essential information you need to begin your journey.
-Let's dive in and get started!
+<div class="grid cards" markdown>
+
+-   :material-book-open-page-variant:{ .lg .middle } __Learn Faster__
+
+    ---
+
+    Hover over words to see what they mean instantly.
+
+-   :material-cards:{ .lg .middle } __Create Flashcards__
+
+    ---
+
+     Send words straight to Anki in one click, exactly as you encounter them while reading.
+
+-   :material-web:{ .lg .middle } __Works Everywhere__
+
+    ---
+
+    Use Rikaitan on news articles, novels, subtitles, PDFs, and more.
+
+-   :material-volume-high:{ .lg .middle } __Hear Pronunciation__
+
+    ---
+
+    Play native audio directly from native speakers from local sources or over the internet.
+
+</div>
 
 ---
 
-## Installation
+## :fontawesome-solid-download: Installation
 
 Rikaitan is available for [Firefox](https://wiki.archlinux.org/title/Firefox)-based
 and for [Chromium](https://wiki.archlinux.org/title/Chromium)-based web browsers.
@@ -19,84 +46,264 @@ We recommend **[LibreWolf](https://librewolf.net/)**
 or [ungoogled-chromium](https://aur.archlinux.org/packages/ungoogled-chromium)
 as your everyday web browser.
 
-### Chrome
 
-<div class="grid" markdown>
+=== "Chrome"
 
-[:fontawesome-brands-chrome: Get Rikaitan <small>Chrome/Stable</small>](https://chrome.google.com/webstore/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk){ .md-button .md-button--primary .md-button--stretch }
+    <div class="grid cards" markdown>
 
-[:fontawesome-brands-chrome: Go To Github Releases <small>All versions</small>](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary .md-button--stretch }
+    -   :fontawesome-brands-chrome:{ .lg .middle } __Chrome Stable__
 
-</div>
+        ---
 
-### Firefox
+        The stable release recommended for most users.
 
-<div class="grid" markdown>
+        [:octicons-download-16: Install from Chrome Web Store](https://chrome.google.com/webstore/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk){ .md-button .md-button--primary }
 
-[:fontawesome-brands-firefox-browser: Get Rikaitan <small>Firefox/Stable</small>](https://github.com/Ajatt-Tools/rikaitan/releases/latest/download/rikaitan-firefox-selfhosted.xpi){ .md-button .md-button--primary .md-button--stretch }
+    -   :fontawesome-brands-chrome:{ .lg .middle } __Chrome Beta__
 
-[:fontawesome-brands-firefox-browser: Go To Github Releases <small>All versions</small>](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button .md-button--primary .md-button--stretch }
+        ---
 
-</div>
+        Try the latest features before they reach stable.
 
-<small>※ Firefox does not allow extensions meant for testing to be hosted in
-the marketplace. You will have to download the desired version and side-load it
-yourself. You only need to do this once, and you will get updates
-automatically.</small>
+        [:octicons-download-16: Go To Github Releases](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button }
 
-### Mobile devices
+    </div>
 
-On [Android](https://tatsumoto.neocities.org/blog/our-immersion-learning-toolset#android) devices
-you can install
-[Fennec](https://f-droid.org/packages/org.mozilla.fennec_fdroid/)
-and then install Rikaitan from [Firefox add-ons](#firefox).
+=== "Firefox"
+
+    <div class="grid cards" markdown>
+
+    -   :fontawesome-brands-firefox-browser:{ .lg .middle } __Firefox Stable__
+
+        ---
+
+        The stable release recommended for most users.
+
+        [:octicons-download-16: Get Rikaitan](https://github.com/Ajatt-Tools/rikaitan/releases/latest/download/rikaitan-firefox-selfhosted.xpi){ .md-button .md-button--primary }
+
+    -   :fontawesome-brands-firefox-browser:{ .lg .middle } __Firefox Beta/Development__
+
+        ---
+
+        Download and side-load manually for testing versions.
+
+        [:octicons-mark-github-16: View GitHub Releases](https://github.com/Ajatt-Tools/rikaitan/releases){ .md-button }
+
+    </div>
+
+    !!! info "Manual Installation Required"
+        Firefox doesn't allow testing extensions in the marketplace. Download your desired version and side-load it manually. You only need to do this once—updates are automatic.
+
+=== "Mobile devices"
+
+    On [Android](https://tatsumoto.neocities.org/blog/our-immersion-learning-toolset#android) devices
+    you can install
+    [Fennec](https://f-droid.org/packages/org.mozilla.fennec_fdroid/)
+    and then install Rikaitan following instructions for Firefox.
+
+    [Mozilla](https://digdeeper.club/articles/mozilla.xhtml)
+    is making it difficult to install extensions on Android!
+    To install an extension in
+    [Firefox for Android](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/) (Fennec) from a file,
+    download and save the extension file to your device.
+    In Firefox, open Settings, then About Firefox (Fennec).
+    Tap the Firefox logo five times quickly to unlock hidden menu items.
+    Return and open Settings again, then choose *Install Extension from File*.
+    Browse to and open the saved extension file.
+    When prompted, tap Add.
+    The extension appears in the Extension list of installed extensions and is ready to use.
+
+---
+
+## Rikaitan Setup
+
+After a successful installation, Rikaitan will display a welcome page. If you don’t see it, that’s okay—you can complete setup at any time by opening `Settings` from the `Quick Actions` menu.
+
+!!! info "Quick Actions"
+    Click the ![rikaitan icon](assets/icon/rikaitan-icon.svg){ width="16" } **Rikaitan** button in the browser bar to open the quick-actions popup.
+
+    <figure markdown="span">
+        ![Browser action popup](assets/ss/browser-action-popup.webp){ width="120" }
+    </figure>
+
+    <div class="grid cards" markdown>
+
+    -   ![profile icon](assets/icon/profile.svg){ width="24" style="vertical-align: middle;" } __Profile__
+
+        ---
+
+        Quickly switch between profiles with different settings or languages.
+
+        <small>To create new profiles, head to `Settings`.</small>
+
+    -   ![cog](assets/icon/cog.svg){ width="24" style="vertical-align: middle;" } __Settings__
+
+        ---
+
+        Your control hub.
+
+        Make profiles, configure dictionaries, switch themes, and more.
+
+    -   ![magnifying glass](assets/icon/magnifying-glass.svg){ width="24" style="vertical-align: middle;" } __Search__
+
+        ---
+
+        Open the search page to easily look up whole sentences and more.
+
+    -   ![question mark](assets/icon/question-mark-circle.svg){ width="24" style="vertical-align: middle;" } __Help__
+
+        ---
+
+        See the relevant links and information about Rikaitan.
+
+    </div>
+
+
+### Installing Dictionaries
+
+!!! warning "Dictionary Required"
+    Rikaitan requires at least one dictionary to function. An orange exclamation mark over the icon indicates no dictionaries are enabled.
+
+
+To install dictionaries:
+
+1. Navigate to Rikaitan's `Welcome` or `Settings` page.
+2. Choose your desired language from the `Language` dropdown.
+3. Click on `Get recommended dictionaries...`
+
+You will see a list of publicly available Rikaitan dictionaries for the selected language.
+Install as many as you like — you can enable, disable, or reorder them later.
+
+
+<figure markdown="span">
+    ![Custom dictionaries list](assets/ss/settings-dictionaries-popup.webp){ width="550" }
+    <figcaption>Dictionary management interface</figcaption>
+</figure>
+
+If you want to upload your own dictionaries to Rikaitan, you can do so via `Configure installed and enabled dictionaries` → `Import`.
+For more on dictionaries, head over to the [Dictionaries page](dictionaries.md).
+
+???+ note "Learning multiple languages"
+
+    To use Rikaitan with multiple languages, it’s best to create a separate profile for each language.
+
+    Go to `Settings` → `Profile` → `Configure Profiles…` → `Add` to create a new profile.
+    When setting it up, you can:
+
+    - Assign a unique modifier key (for example, <kbd>Alt</kbd>)
+
+    - Add conditions so the profile activates only on specific websites or URLs
+
+    Once the profile is created, return to the same section and set `Active Profile` to the new profile. Then, install the dictionaries needed for that language.
+
+    Repeat this process for each language you want to use. After setup, you can switch languages instantly by changing profiles from the `Quick Actions` menu or by using the assigned modifier keys.
 
 ---
 
 ## Basic Usage
 
-Now that you have installed Rikaitan, let's explore how you can utilize her features in your language learning journey.
+Now that we have our dictionaries installed, you can now use Rikaitan to read anything in your desired language.
 
-### Quick-actions
+!!! info
+    Open any webpage, such as:
 
-Click the ![rikaitan icon](assets/icon/rikaitan-icon.svg){ width="16" } _Rikaitan_ button in the browser bar to open the quick-actions popup.
+    - News articles
+    - Wikipedia
+    - Online novels or blogs
+    - Social media
 
-![](assets/ss/browser-action-popup.webp){ width="120" }
+    Rikaitan works anywhere selectable text exists.
 
-- The ![profile icon](assets/icon/profile.svg){ width="16" } _profile_ button will appear when multiple profiles exist, allowing the current profile to be quickly changed.
-- The ![cog](assets/icon/cog.svg){ width="16" } _cog_ button will open the Settings page.
-- The ![magnifying glass](assets/icon/magnifying-glass.svg){ width="16" } _magnifying glass_ button will open the Search page.
-- The ![question mark symbol](assets/icon/question-mark-circle.svg){ width="16" } _question mark_ buttonwill open the Information page.
+    ??? note "Scanning local files and PDFs"
 
-### Installing Dictionaries
+          In order to use Rikaitan with local files in Chrome, you must first tick the `Allow access to file URLs` checkbox for Rikaitan on the extensions page.
 
-To import the dictionaries you wish to use for term searches, head over to [Dictionaries](dictionaries.md) to get set up!
+          In addition, to scan PDF files on your local machine, use the [Rikaitan PDF Viewer](/rikaitan-pdf-viewer).
 
-If you do not have any dictionaries installed or enabled. Rikaitan will warn you that it is not ready for use by displaying an orange exclamation mark over its icon. This exclamation mark will disappear once you have installed and enabled at least one dictionary.
 
-<figure markdown="span">
-    ![custom dictionaries list](assets/ss/settings-dictionaries-popup.webp){ width="550" }
-</figure>
 
-### Scanning Text
+### Using Rikaitan
 
-Webpage text can be scanned by moving the cursor while holding a modifier key, which is <kbd>Shift</kbd> by default.
+To read unknown words,
 
-If definitions are found for the text at the cursor position, a popup window containing term definitions will open. This window can be dismissed by clicking anywhere outside of it.
+1. Hold the modifier key (default: <kbd>Shift</kbd>)
+2. Move your cursor over the word.
+
+If a definition is found, a popup window will appear.
+
 
 <figure markdown="span">
     <a href="https://en.wikipedia.org/wiki/English_language#Classification">
-    ![popup with search terms](assets/ss/search-popup-terms.webp){ width="850" }
+    ![Popup with search terms](assets/ss/search-popup-terms.webp){ width="850" }
     </a>
-    <figcaption><small>Try it yourself!</small></figcaption>
+    <figcaption><small>:material-hand-pointing-right: Try it yourself! Hover over text while holding <kbd>Shift</kbd></small></figcaption>.
 </figure>
 
-### Audio
+!!! tip "Tip"
+    You can customize the modifier key in Settings to suit your preferences (e.g., <kbd>Ctrl</kbd>, <kbd>Alt</kbd>, or `No Modifier` to have the popup open on every word).
 
-Click on the ![loudspeaker icon](assets/icon/play-audio.svg){ width="16" } _speaker_ button to hear the term pronounced by a native speaker.
+#### Listen to Audio
 
-If an audio sample is not available, you will hear a short click instead. For more options, see [Audio Configuration](advanced.md#audio).
+<div class="grid cards" markdown>
+- :material-speaker:{ .lg .middle } __Audio Pronunciation__
 
-### Anki
+    ---
 
-To further enhance your Rikaitan experience, it's worth [integrating with Anki](anki.md), a spaced-repetition flashcard program to help solidify the words you encounter.
+    If you want to hear the word pronounced by native speakers, click the ![loudspeaker icon](assets/icon/play-audio.svg){ width="16" } **speaker button** in the popup.
+
+    !!! info "No Audio"
+        If an audio sample isn't available, you'll hear a short click. For more audio sources and configuration options, see [Audio Configuration](advanced.md#audio).
+
+    [:octicons-arrow-right-24: Set up Audio](advanced.md#audio)
+
+</div>
+
+#### Export Flashcards to Anki
+
+<div class="grid cards" markdown>
+- :material-brain:{ .lg .middle } __Spaced Repetition__
+
+    ---
+    Rikaitan integrates with Anki, a spaced repetition flashcard app loved by many language learners.
+    To export the word as a flashcard, click the ![add icon](assets/btn/btn-add-expression.png){ width="16" } **export to Anki button** in the popup.
+
+    !!! info "Anki Integration"
+        If Anki is not running or the connection settings are incorrect, this button will appear grayed out.
+        If you haven't set up Anki integration this button will not appear.
+
+        Make sure Anki is running in the background and that the integration is configured correctly.
+        For more configuration options, see [Anki Integration](anki.md).
+
+
+    [:octicons-arrow-right-24: Set up Anki Integration](anki.md)
+
+</div>
+
+---
+
+## :fontawesome-solid-circle-question: Need Help?
+
+<div class="grid cards" markdown>
+
+-   :material-chat-question:{ .lg } __Frequently Asked Questions__
+
+    ---
+
+    Find answers to common questions about setup, usage, troubleshooting, and more.
+
+    [:octicons-arrow-right-24: Go to FAQ](./support.md#frequently-asked-questions)
+
+-   :material-file-document:{ .lg } __Community__
+
+    ---
+
+    Join our community for support and tips, or just to hang out!
+
+    [:octicons-arrow-right-24: Go to Tech Support](./support.md)
+
+    or visit our home at
+    [:fontawesome-brands-community: community](#) ·
+    [:fontawesome-brands-reddit: Reddit](#) ·
+    [:fontawesome-brands-github: GitHub](#) !
+
+</div>
