@@ -2,69 +2,6 @@
 
 {% block scripts %}
 {{ super() }}
-<script>
-    // Sync custom theme toggle with MkDocs Material palette
-    document.addEventListener('DOMContentLoaded', function() {
-        const toggle = document.getElementById('dark-light-toggle');
-
-        if (!toggle) return;
-
-        // Get current theme from MkDocs Material
-        function getCurrentTheme() {
-            const scheme = document.body.getAttribute('data-md-color-scheme');
-            return scheme === 'slate' ? 'dark' : 'light';
-        }
-
-        // Update theme images based on current theme
-        function updateThemeImages(theme) {
-            const lightImages = document.querySelectorAll(".theme-image:not(.dark)");
-            const darkImages = document.querySelectorAll(".theme-image.dark");
-
-            if (theme === 'light') {
-                lightImages.forEach(img => img.style.display = "block");
-                darkImages.forEach(img => img.style.display = "none");
-                toggle.src = toggle.src.replace("toggleActive", "toggleInactive");
-            } else {
-                lightImages.forEach(img => img.style.display = "none");
-                darkImages.forEach(img => img.style.display = "block");
-                toggle.src = toggle.src.replace("toggleInactive", "toggleActive");
-            }
-        }
-
-        // Initialize on page load
-        updateThemeImages(getCurrentTheme());
-
-        // Watch for theme changes from MkDocs palette switcher
-        const observer = new MutationObserver(function() {
-            updateThemeImages(getCurrentTheme());
-        });
-
-        observer.observe(document.body, {
-            attributes: true,
-            attributeFilter: ['data-md-color-scheme']
-        });
-
-        // Make custom toggle button trigger MkDocs palette switcher
-        window.toggleDarkLight = function() {
-            const currentTheme = getCurrentTheme();
-            const palette = document.querySelector("[data-md-component=palette]");
-
-            if (palette) {
-                // Find the palette input for the opposite theme
-                const targetScheme = currentTheme === 'light' ? 'slate' : 'default';
-                const input = palette.querySelector(`input[data-md-color-scheme="${targetScheme}"]`);
-
-                if (input) {
-                    input.click();
-                } else {
-                    // Fallback: click any palette input
-                    const anyInput = palette.querySelector('input[data-md-color-scheme]');
-                    if (anyInput) anyInput.click();
-                }
-            }
-        };
-    });
-</script>
 {% endblock %}
 
 {% block extrahead %}
@@ -86,21 +23,26 @@
             100,000+ language learners.
         </p>
         <div class="cta-buttons">
-            <a href="https://chrome.google.com/webstore/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk" aria-label="Get Rikaitan for Chrome">
+            <a href="https://chrome.google.com/webstore/detail/rikaitan/pnjdahdadbkhcfamabafkjbjblbgkodk"
+                aria-label="Get Rikaitan for Chrome">
                 <button>
-                    <img style="margin-right: 0.5rem" width="18" height="18" src="assets/icons/chrome.svg" alt="Chrome icon">
+                    <img style="margin-right: 0.5rem" width="18" height="18" src="assets/icons/chrome.svg"
+                        alt="Chrome icon">
                     <span>Get Rikaitan <small>Chrome</small></span>
                 </button>
             </a>
             <a href="https://addons.mozilla.org/en-US/firefox/addon/rikaitan/" aria-label="Get Rikaitan for Firefox">
                 <button>
-                    <img style="margin-right: 0.5rem" width="18" height="18" src="assets/icons/firefox.svg" alt="Firefox icon">
+                    <img style="margin-right: 0.5rem" width="18" height="18" src="assets/icons/firefox.svg"
+                        alt="Firefox icon">
                     <span>Get Rikaitan <small>Firefox</small></span>
                 </button>
             </a>
-            <a href="https://microsoftedge.microsoft.com/addons/detail/rikaitan/edge_store_id" aria-label="Get Rikaitan for Edge">
+            <a href="https://microsoftedge.microsoft.com/addons/detail/rikaitan/edge_store_id"
+                aria-label="Get Rikaitan for Edge">
                 <button>
-                    <img style="margin-right: 0.5rem" width="18" height="18" src="assets/icons/edge.svg" alt="Edge icon">
+                    <img style="margin-right: 0.5rem" width="18" height="18" src="assets/icons/edge.svg"
+                        alt="Edge icon">
                     <span>Get Rikaitan <small>Edge</small></span>
                 </button>
             </a>
@@ -139,7 +81,8 @@
             <div class="tooltip-container">
                 <div class="tooltip"><strong>Dynamic Popup</strong></div>
                 <a href="getting-started">
-                    <img class="feature-image" width="96%" height="96%" src="./assets/scanning-popup.webp" alt="Dynamic Popup" />
+                    <img class="feature-image" width="96%" height="96%" src="./assets/scanning-popup.webp"
+                        alt="Dynamic Popup" />
                 </a>
             </div>
         </div>
@@ -154,7 +97,8 @@
             </p>
             <p>
                 If the default sources don't meet your needs, Rikaitan lets you add your <strong>custom audio
-                    sources</strong>: You can pull audio from massive pronunciation libraries such as Forvo, or enable text-to-speech
+                    sources</strong>: You can pull audio from massive pronunciation libraries such as Forvo, or enable
+                text-to-speech
                 with a variety of different voices. Rikaitan can even export audio directly to your <strong>Anki
                     flashcards</strong>, so you can always hear it when you review.
             </p>
@@ -188,7 +132,7 @@
 
                     <div class="mySlides">
                         <div style="display: flex; position: absolute; top: -24px;">
-                            <small>Bint's Rikaitan CSS
+                            <small>Bint's Japanese CSS
                                 <a class="ext-link-icon" href="./assets/themes/bint-css.css" aria-label="View Bint's CSS">
                                     <svg style="width: 11px; height: 11px;" class="bounce-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <path fill="currentcolor" d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
@@ -265,9 +209,12 @@
 
                 <p style="margin-top: 1.5rem;">
                     <small>BrenoAqua's Senren Note Type
-                        <a class="ext-link-icon" href="https://brenoaqua.github.io/Senren/" aria-label="View Senren Note Type">
-                            <svg style="width: 11px; height: 11px;" class="bounce-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <path fill="currentcolor" d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
+                        <a class="ext-link-icon" href="https://brenoaqua.github.io/Senren/"
+                            aria-label="View Senren Note Type">
+                            <svg style="width: 11px; height: 11px;" class="bounce-icon"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="currentcolor"
+                                    d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
                             </svg>
                         </a>
                     </small>
