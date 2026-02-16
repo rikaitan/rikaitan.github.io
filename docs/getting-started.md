@@ -115,6 +115,8 @@ as your everyday web browser.
 
 ---
 
+:fontawesome-solid-mobile-screen-button:{ .lg .middle } ___Mobile users___: You can use Rikaitan on Android with Firefox or Edge only. Chrome for mobile and iOS aren't supported.
+
 ## Rikaitan Setup
 
 After a successful installation, Rikaitan will display a welcome page. If you don’t see it, that’s okay—you can complete setup at any time by opening `Settings` from the `Quick Actions` menu.
