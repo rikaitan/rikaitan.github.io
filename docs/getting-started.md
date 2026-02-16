@@ -115,7 +115,7 @@ as your everyday web browser.
 
 ---
 
-:fontawesome-solid-mobile-screen-button:{ .lg .middle } ___Mobile users___: You can use Rikaitan on Android with Firefox or Edge only. Chrome for mobile and iOS aren't supported.
+:fontawesome-solid-mobile-screen-button:{ .lg .middle } ___Mobile platform note___: You can use Rikaitan on Android with Firefox or Edge only. Chrome for mobile and iOS aren't supported.
 
 ## Rikaitan Setup
 
