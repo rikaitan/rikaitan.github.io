@@ -115,7 +115,7 @@ as your everyday web browser.
 
 ---
 
-:fontawesome-solid-mobile-screen-button:{ .md .middle } ___Mobile platform note___: You can use Rikaitan on Android with Firefox or Edge. Independent browser Elixir for Android is also compatible. Chrome for mobile and iOS aren't supported.
+:fontawesome-solid-mobile-screen-button:{ .md .middle } ___Mobile platform note___: You can use Rikaitan on Android with Firefox, Edge, or Kiwi-based browsers like Elixir. Chrome for mobile and iOS aren't supported.
 
 ## Rikaitan Setup
 
