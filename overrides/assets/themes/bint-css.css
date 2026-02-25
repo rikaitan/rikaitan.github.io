@@ -1,5 +1,5 @@
-/* 
-   This font is kindly shared by Bint or caoimhe.00 on community. 
+/*
+   This font is kindly shared by Bint or caoimhe.00 on community.
    You can purchase the below fonts, or swap them with other fonts available in your system.
    If you have any issues with using the CSS, please contact us (Ajatt-Tools) via our official community server.
 */
@@ -117,4 +117,3 @@ button[title^="Add reading"] {
 
 /* --- Inflection Icon --- */
 .inflection-source-icon[data-inflection-source="algorithm"]::after { content: "🌸"; }
-
