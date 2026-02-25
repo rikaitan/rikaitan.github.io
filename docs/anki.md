@@ -11,6 +11,8 @@ Rikaitan features automatic flashcard creation for [Anki](https://wiki.archlinux
 retain knowledge. This feature requires the prior installation of an Anki plugin called [AnkiConnect](https://ankiweb.net/shared/info/2055492159).
 Check the respective project page for more information about how to set up this software.
 
+:fontawesome-solid-mobile-screen-button:{ .md .middle }  ___Mobile platform note___: On Android, use AnkiDroid (available on [F-Droid](https://f-droid.org/en/packages/com.ichi2.anki/)).
+
 ### Import an example mining deck
 
 After you install Rikaitan, you need to set up a `Note Type` in Anki
