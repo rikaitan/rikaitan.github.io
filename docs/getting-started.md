@@ -115,7 +115,7 @@ as your everyday web browser.
 
 ---
 
-:fontawesome-solid-mobile-screen-button:{ .md .middle } ___Mobile platform note___: You can use Rikaitan on Android with Firefox, Edge, or Kiwi-based browsers like Elixir. Chrome for mobile and iOS aren't supported.
+:fontawesome-solid-mobile-screen-button:{ .md .middle } ___Mobile platform note___: You can use Rikaitan on Android with Fennec(Firefox), or Kiwi-based browsers. Chrome for mobile and iOS aren't supported.
 
 ## Rikaitan Setup
 
@@ -242,7 +242,7 @@ If a definition is found, a popup window will appear.
 </figure>
 
 !!! tip "Tip"
-    You can customize the modifier key in Settings to suit your preferences (e.g., <kbd>Ctrl</kbd>, <kbd>Alt</kbd>, or `No Key` to have the popup open on every word).  
+    You can customize the modifier key in Settings to suit your preferences (e.g., <kbd>Ctrl</kbd>, <kbd>Alt</kbd>, or `No Key` to have the popup open on every word).
 
     :fontawesome-solid-mobile-screen-button:{ .md .middle }  ___Mobile platform note___: On mobile platforms directly touching the word brings up the popup.
     There is no need to configure the modifier key.
