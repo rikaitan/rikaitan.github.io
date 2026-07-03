@@ -31,6 +31,11 @@ Dictionaries for beginners can be found in the
 
     Unfortunately, as most of the dictionaries released in this format are proprietary, you will need to procure these dictionaries yourself and import them using [Rikaitan Import](https://github.com/Ajatt-Tools/rikaitan-import). Check the project page for additional details.
 
+#### Chinese
+
+[CC-CEDICT and CC-Canto](https://github.com/Ajatt-Tools/cc-cedict-rikaitan).
+Automatically generated Mandarin and Cantonese dictionaries for use with Rikaitan.
+
 #### Other Languages
 
 [Kaikki To Rikaitan](https://github.com/Ajatt-Tools/kaikki-to-rikaitan/blob/master/downloads.md) - Wiktionaries in various languages converted to Rikaitan format.
