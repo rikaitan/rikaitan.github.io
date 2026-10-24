@@ -9,7 +9,7 @@ on:
 permissions:
   contents: read
 
-# Finish both destinations before another production deployment starts.
+# Finish the production deployment before another one starts.
 concurrency:
   group: documentation-production
   cancel-in-progress: false
@@ -30,7 +30,7 @@ jobs:
       - name: Build site
         run: zensical build --clean
 
-      # Check critical output before publishing either copy of the site.
+      # Check critical output before publishing the site.
       - name: Validate build output
         shell: bash
         run: |
@@ -47,15 +47,6 @@ jobs:
         with:
           path: site
 
-      # S3 consumes the same files, but needs an unpacked artifact, not Pages' tar.
-      - name: Upload S3 artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: site-s3
-          path: site/
-          include-hidden-files: true
-          if-no-files-found: error
-
   deploy-gh:
     needs: build
     runs-on: ubuntu-latest
@@ -67,31 +58,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/configure-pages@v6
-      - name: Deploy to rikaitan.github.io
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
-
-  deploy-s3:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download built site
-        uses: actions/download-artifact@v4
-        with:
-          name: site-s3
-          path: site
-
-      # https://github.com/AnimMouse/setup-rclone/tree/main?tab=readme-ov-file#usage
-      # Encode the rclone.conf file in Base64 using this command: `base64 -w 0 rclone.conf`
-      # and paste it to RCLONE_CONFIG secret.
-      - name: Setup Rclone
-        uses: AnimMouse/setup-rclone@e17fb0f092a6547544387f4ef0518a209fc69b0a
-        with:
-          rclone_config: ${{ secrets.RCLONE_CONFIG }}
-
-      - name: Deploy to rikaitan.ajatt.top
-        shell: bash
-        run: |
-          # Refuse to sync incomplete output because rclone sync deletes remote files.
-          test -s site/index.html
-          rclone -v sync --fast-list --checksum "site/" "s3-connect:rikaitan.ajatt.top"
