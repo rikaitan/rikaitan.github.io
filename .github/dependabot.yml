@@ -17,3 +17,21 @@ updates:
         update-types:
           - "minor"
           - "patch"
+
+  # Keep the pinned Zensical build dependency in requirements.txt up to date.
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 20
+    labels:
+      - "area/dependencies"
+    groups:
+      # group minor/patch updates together
+      # Major updates are intentionally left ungrouped for individual review
+      minor:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
