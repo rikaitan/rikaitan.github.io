@@ -15,6 +15,7 @@ nav:
   - Contributing: 'contributing.md'
 theme:
   name: material
+  variant: classic # Preserve the existing Material layout and custom CSS during migration.
   favicon: assets/icon/rikaitan-icon64.png
   logo: assets/icon/rikaitan-icon128.png
   icon:
@@ -80,20 +81,17 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tilde
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:zensical.extensions.emoji.twemoji
+      emoji_generator: !!python/name:zensical.extensions.emoji.to_svg
 
+# Zensical provides these plugins natively, without MkDocs plugin packages.
 plugins:
-  - git-revision-date-localized
+  # git-revision-date-localized: Git revision dates are not supported by Zensical yet.
   - social
-  - search:
-      lang:
-        - en
-        - ja
-  - glightbox:
+  - search # Native multilingual search replaces Lunr and ignores the old lang setting.
+  - glightbox: # https://zensical.org/docs/compatibility/mkdocs/plugins/#glightbox
       manual: true
       width: 70%
-      effect: none
 
 
 extra_css:
