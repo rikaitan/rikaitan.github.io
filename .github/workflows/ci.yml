@@ -7,43 +7,79 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+
+# Finish both destinations before another production deployment starts.
+concurrency:
+  group: documentation-production
+  cancel-in-progress: false
+
 jobs:
-  deploy-gh:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-        with:
-          fetch-depth: 0
-
       - uses: actions/setup-python@v7
         with:
-          python-version: 3.x
+          python-version: '3.13'
 
-      - name: Cache
-        uses: actions/cache@v6
+      - name: Install Zensical
+        run: pip install -r requirements.txt
+
+      # Zensical recommends clean CI builds without a persistent build cache.
+      - name: Build site
+        run: zensical build --clean
+
+      # Check critical output before publishing either copy of the site.
+      - name: Validate build output
+        shell: bash
+        run: |
+          test -s site/index.html
+          test -s site/search.json
+          test -s site/assets/images/social/index.png
+          test ! -e site/CNAME
+          cmp docs/javascripts/browser-detect.js site/javascripts/browser-detect.js
+          cmp docs/rikaitan-pdf-viewer/web/index.html site/rikaitan-pdf-viewer/web/index.html
+          cmp docs/rikaitan-pdf-viewer/build/pdf.worker.mjs site/rikaitan-pdf-viewer/build/pdf.worker.mjs
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v5
         with:
-          path: .cache
-          key: ${{ github.ref }}
+          path: site
 
-      - name: Install mkdocs material
-        run: pip install mkdocs-material
+      # S3 consumes the same files, but needs an unpacked artifact, not Pages' tar.
+      - name: Upload S3 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-s3
+          path: site/
+          include-hidden-files: true
+          if-no-files-found: error
 
-      - name: Install dependencies with pip
-        run: pip install mkdocs-git-revision-date-localized-plugin mkdocs-glightbox "mkdocs-material[imaging]"
-
-      - name: Deploy site to github pages
-        run: mkdocs gh-deploy --force
+  deploy-gh:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v6
+      - name: Deploy to rikaitan.github.io
+        id: deployment
+        uses: actions/deploy-pages@v5
 
   deploy-s3:
-    needs: [deploy-gh]
+    needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout branch gh-pages
-        uses: actions/checkout@v7
+      - name: Download built site
+        uses: actions/download-artifact@v4
         with:
-          ref: gh-pages
-          fetch-depth: 0
+          name: site-s3
+          path: site
 
       # https://github.com/AnimMouse/setup-rclone/tree/main?tab=readme-ov-file#usage
       # Encode the rclone.conf file in Base64 using this command: `base64 -w 0 rclone.conf`
@@ -53,10 +89,9 @@ jobs:
         with:
           rclone_config: ${{ secrets.RCLONE_CONFIG }}
 
-      - name: Rclone from pwd to remote
+      - name: Deploy to rikaitan.ajatt.top
         shell: bash
-        run: >-
-          rclone -v sync --fast-list --checksum
-          "$PWD" "s3-connect:rikaitan.ajatt.top"
-          --exclude ".git/"
-          --delete-excluded
+        run: |
+          # Refuse to sync incomplete output because rclone sync deletes remote files.
+          test -s site/index.html
+          rclone -v sync --fast-list --checksum "site/" "s3-connect:rikaitan.ajatt.top"
