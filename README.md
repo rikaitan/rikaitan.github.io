@@ -25,3 +25,10 @@ To build the static site after setup:
 The output is written to `site/`.
 The existing `mkdocs.yml` is supported by Zensical and uses the classic theme
 to preserve the current layout and CSS.
+
+## Deployment
+
+`.github/workflows/ci.yml` builds and validates the site, then deploys it to GitHub Pages.
+Set **Settings → Pages → Source** to **GitHub Actions**
+and configure the custom domain as `rikaitan.ajatt.top`.
+No `CNAME` file is needed for this publishing method.
