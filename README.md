@@ -10,4 +10,18 @@ The source code of the `rikaitan-pdf-reader` function on the site is licensed as
 
 ## How to run
 
-Run `./setup_venv.sh`.
+Run `bash setup_venv.sh` to install the pinned Zensical release into `.venv`
+and start a local preview.
+Arguments are passed to `zensical serve`.
+For example `bash setup_venv.sh --dev-addr 127.0.0.1:8001`.
+The default preview address is `http://127.0.0.1:8000`.
+
+To build the static site after setup:
+
+```bash
+.venv/bin/zensical build --clean
+```
+
+The output is written to `site/`.
+The existing `mkdocs.yml` is supported by Zensical and uses the classic theme
+to preserve the current layout and CSS.
