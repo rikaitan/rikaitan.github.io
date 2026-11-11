@@ -1,2 +1,2 @@
 # Keep local previews, CI, and compatibility tests on the same Zensical release.
-zensical==0.0.73
+zensical==0.0.74
